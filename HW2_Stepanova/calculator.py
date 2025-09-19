@@ -16,3 +16,17 @@ def division (a, b):
 		return a/b
 	else:
 		return "деление на 0!"
+
+def main():
+    exp=input("Введите выражение: ").split()
+    a,operation,b = float(exp[0]), exp[1], float(exp[2])
+    if operation == "+":
+        print(addition(a,b))
+    elif operation == "-":
+        print(substraction(a,b))
+    elif operation == "*":
+        print(multiple(a,b))
+    else:
+        print(division(a,b))
+
+main()
