@@ -3,19 +3,19 @@ def multiple(a,b):
 	return a*b
 
 def substraction(a, b):
-	"Функция вычитания двух чисел"
+	"Функция вычитания b из a"
 	return a - b
 
 def addition (a, b):
-    "сложение двух чисел"
-    return a + b
+	"Функция сложения двух чисел"
+	return a + b
 
 def division (a, b):
-    "деление двух чисел"
-    if b!= 0:
-        return a/b
-    else:
-        return "деление на 0!"
+	"Функция деления a на b"
+	if b!= 0:
+		return a/b
+	else:
+		return "деление на 0!"
 
 def main():
     exp=input("Введите выражение: ").split()
@@ -30,5 +30,3 @@ def main():
         print(division(a,b))
 
 main()
-
-
