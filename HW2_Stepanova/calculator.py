@@ -5,3 +5,7 @@ def multiple(a,b):
 def substraction(a, b):
 	"Функция вычитания двух чисел"
 	return a - b
+
+def addition (a, b):
+    "сложение двух чисел"
+    return a + b
