@@ -20,4 +20,4 @@ If you have any troubles running calculator, please attach params.txt and calcul
 
 # Screenshot of the team meeting
 
-![](imgs/screenshot.jpg){width="217"}
+![](imgs/screenshot.jpg)
